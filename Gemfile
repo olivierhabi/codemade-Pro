@@ -13,6 +13,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'materialize-sass'
 gem 'devise', '~> 4.2'
+gem "toastr-rails"
+gem 'activeadmin', github: "activeadmin/activeadmin"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
