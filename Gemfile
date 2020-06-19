@@ -17,6 +17,8 @@ gem "toastr-rails"
 gem 'activeadmin', github: "activeadmin/activeadmin"
 gem "active_skin"
 
+gem 'paperclip', '~> 6.1'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
