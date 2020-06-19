@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   devise_for :users
   get 'pages/about'
+  get '/myprojects' => 'project#list'
   post '/free' => 'charge#free'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 

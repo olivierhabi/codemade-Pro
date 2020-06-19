@@ -32,13 +32,13 @@
                     <% else %>
                     <!-- Dropdown Trigger -->
                     <li><a class="dropdown-trigger valign-wrapper" href="#!" data-target="dropdown1">
-                        <%= image_tag avatar_url(current_user), class: "circle responsive-img" %>&nbsp;
+                        <%= image_tag avatar_url(current_user), class: "circle responsive-img avatar-small" %>&nbsp;
                         
                         <%= current_user.name %></a></li>
                     <li>
                     <li><%= link_to "My Profile", edit_user_registration_path %></li>
                     </li>
-                    <li><a href="#!">My Courses</a></li>
+                    <li><%= link_to "My Projects", myprojects_path %></li>
                     <li class="divider"></li>
                     <li><%= link_to "Log out", destroy_user_session_path , method: :delete%></li>
 
