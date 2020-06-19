@@ -17,6 +17,15 @@ gem "toastr-rails"
 gem 'activeadmin', github: "activeadmin/activeadmin"
 gem "active_skin"
 
+gem 'paperclip', '~> 6.1'
+gem 'redcarpet', '~> 3.5'
+
+gem 'friendly_id', '~> 5.3'
+gem 'coderay', '~> 1.1', '>= 1.1.3'
+
+
+gem 'active_admin-sortable_tree', '~> 2.1'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
